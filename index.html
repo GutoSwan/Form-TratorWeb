@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Formulário de cadastro</title>
+</head>
+
+<body>
+    <header>
+            <div></div>
+            <div>
+                <span>Lacerda</span>
+            </div>
+    </header>
+    
+        
+        <div class="form">
+            <div class="form-header">
+                <div class="tittle">
+                    <h1>Cadastro de Modelos</h1>
+                </div>
+            </div>
+            <form action="#">
+              
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="brand">Escolha a Marca</label>
+                        <select id="brand" name="brand" placeholder="Marca" required> <option>Option1</option><option>Option2</option></select>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="Type">Escolha um Tipo</label>
+                        <select id="Type" name="Type" placeholder="Tipo" required><option>Option1</option><option>Option2</option></select>
+                    </div>
+                </div>
+                <div class="input-group">
+
+                    <div class="input-box">
+                        <label for="Model">Descreva Modelo</label>
+                        <input id="model" type="text" name="model" placeholder="Modelo" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="Version">Descreva a Versão</label>
+                        <input id="Version" type="text" name="Version" placeholder="Versão" required>
+                    </div>
+                </div>
+                <div class="input-group">
+
+                    <div class="input-box">
+                        <label for="traction">Escolha o Tipo de Tração</label>
+                        <select id="traction" name="traction" placeholder="Tração" required><option>Option1</option><option>Option2</option></select>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="potency">Informe a Potência</label>
+                        <input id="potency" type="text" name="potency" placeholder="Potência" required>
+                    </div>
+                </div>
+                <div class="input-group">
+
+                    <div class="input-box">
+                        <label for="Quality">Escolha a Qualidade do Mercado</label>
+                        <select id="Quality" name="Quality" placeholder="Qualidade" required><option>Option1</option><option>Option2</option></select>
+                    </div>
+                </div>
+                <div class="input-group">
+
+                    <div class="input-box">
+                        <label for="Value">Escolha o Modelo Correspondente para o Valor</label>
+                        <select id="Value" name="Value" placeholder="Modelo Correspondente" required><option>Option1</option><option>Option2</option></select>
+                    </div>
+                    <div class="percentage"> 
+                        <span>Ajuste de Valor</span>
+                        <div class="percentage-box">
+                            <div class="input-box" id="plus-box">
+                                <label for="plus">(+%)</label>
+                                <input id="plus" type="number" name="plus"  required>
+                            </div>
+        
+                            <div class="input-box" id="minus-box">
+                                <label for="minus">(-%)</label>
+                                <input id="minus" type="number" name="minus" required>
+                            </div>
+                        </div>
+                       </div>
+                   
+
+                    <div class="input-box">
+                        <label for="equipment">Informe o Valor do Equipamento Novo</label>
+                        <input id="equipment" type="text" name="equipment" placeholder="Valor de Equipamento" required>
+                    </div>
+                    
+                </div>
+                <div class="input-group">
+
+                    
+
+                    <div class="input-box">
+                        <label for="manufacturing-Initial">Ano Inicial de Fabricação</label>
+                        <select id="manufacturing-Initial" name="manufacturing-Initial" placeholder="Data" required><option>Option1</option><option>Option2</option></select>
+                    </div>
+                
+
+                    <div class="input-box">
+                        <label for="manufacturing-final">Ano Final de Fabricação</label>
+                        <select id="manufacturing-final" name="manufacturing-final" placeholder="Data" required><option>Option1</option><option>Option2</option></select>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="serial">Inicio de Serial</label>
+                        <input id="serial" type="text" name="serial" placeholder="Insira Serial" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="serial-final">Final de Serial</label>
+                        <input id="serial-final" type="text" name="serial-final" placeholder="Insira Serial" required>
+                    </div>
+                </div>
+            <div class="buttons-group">
+                <div class="include-button">
+                    <button>Incluir Marca</button>
+                </div>
+
+                <div class="include-button">
+                    <button>incluir Tipo</button>
+                </div>
+
+                <div class="include-button">
+                    <button>Salvar</button>
+                </div>
+            </div>
+               
+            </form>
+       
+        </div>
+    </div>
+</body>
+
+</html>

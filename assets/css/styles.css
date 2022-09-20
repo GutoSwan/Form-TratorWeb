@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*   {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body,html {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+form{
+    padding: 2em;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    min-height: 50px;
+    background-color: #0a874e;
+    align-items: center;
+    color: white;
+}
+
+.container {
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+    
+}
+.input-box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 2em;
+    max-width: 480px;
+
+}
+.form{
+    width: 100%;
+    text-align: center;
+
+}
+.form-header{
+    color: #0a874e;
+}
+.input-group{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1em 0;
+    width: 100%;
+    
+}
+.buttons-group{
+    display: flex;
+    margin-top: 1em;
+    justify-content: space-evenly;
+}
+button{
+    padding: 1em;
+    width: 100%;
+    text-decoration: none;
+    background-color: orange;
+    border: 0;
+    border-radius: 1em;
+    color: white;
+
+}
+.include-button{
+    width: 100%;
+    margin: 0 2em;
+    
+
+}
+input,select{
+    border-radius: 1em;
+    height: 3em;
+    padding: 0 0.5em;
+    border: 1px solid orange;
+    width: 100%;
+}
+#plus-box,#minus-box{
+    max-width: 130px;
+}
+.percentage{
+    
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.percentage span{
+    position: absolute;
+    left: 50%;
+    top: -25px;
+    transform:translate(-50%);
+    
+}
+
+.percentage-box{
+    display: flex;
+}
